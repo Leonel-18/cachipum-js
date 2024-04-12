@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cachipum</title>
+</head>
+<body>
+    <div class="titulo-main">
+        <h1>Ca-Chi-Pum</h1>
+    </div>
+    <section class="conteiner">
+
+        <!-- Opciones Usuario -->
+        <div class="user" id="user">
+            <div class="title">
+                <h1>Elegí un objeto</h1>
+            </div>
+            <button class="btn" onclick="opciones('piedra')">Piedra</button>
+            <button class="btn" onclick="opciones('tijera')">Tijera</button>
+            <button class="btn" onclick="opciones('papel')">Papel</button>
+        </div>
+
+        <!-- Contador -->
+        <div class="contador">
+            <div class="final" id="final"></div>
+            <div class="indicador-usuario">
+                <i class="fa-solid fa-user-tie fa-2xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="puntos">
+                <div class="puntoUsuario" id="puntoUsuario">0</div>
+                <span>-</span>
+                <div class="puntoMaquina" id="puntoMaquina">0</div>   
+            </div>
+            <div class="indicador-maquina">
+                <i class="fa-solid fa-desktop fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div class="resultado" id="resultado"></div>
+        </div>
+
+        <!-- Resultado -->
+
+    </section>
+    
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c63695aaa6.js" crossorigin="anonymous"></script>
+</body>
+</html>
